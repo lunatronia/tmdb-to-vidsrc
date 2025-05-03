@@ -1,6 +1,6 @@
 #made with <3 by lunatronia
 #you can change the api key with your own but this is the default: b030404650f279792a8d3287232358e3
-#v1.0.0
+#v1.0.1
 
 # TO-DO // add support for redirecting to series
 
@@ -19,7 +19,7 @@ while True:
     while True:
         if userCommand == "help":
             os.system("clear")
-            print("i don't wanna fill this out right now sorry")
+            print(f"current list of commands: \nhelp - displays this page \nwatch <query> - starts a search \nclear - clears console")
             userCommand = input("> ")
         else:
             if userCommand == "watch":
