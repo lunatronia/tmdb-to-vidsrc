@@ -1,5 +1,5 @@
 #made with <3 by lunatronia
-#you can change the api key with your own but this is the default: b030404650f279792a8d3287232358e3
+#you need an api key from themoviedb to use this. once you've got it, change the apiKey variable to said key.
 #v1.0.1
 
 # TO-DO // add support for redirecting to series
@@ -9,7 +9,8 @@ import os
 import time
 from urllib.parse import quote_plus
 
-apiKey = "b030404650f279792a8d3287232358e3"
+apiKey = 
+
 gottenResponse = ""
 print("welcome to tmdb-to-vidsrc! you can type \"help\" for a list of commands.")
 while True:
